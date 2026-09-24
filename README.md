@@ -119,91 +119,31 @@ Application Flow
 
 User
  │
- ▼
+ 
 React Frontend
  │
- ▼
+ 
 Axios API Request
  │
- ▼
+ 
 Express.js Backend
  │
- ▼
+ 
 Mongoose
  │
- ▼
+ 
 MongoDB
  │
- ▼
+ 
 Response
  │
- ▼
+ 
 React UI
 
 ---
 
 📂 Project Structure
 
-airbnb-clone/
-│
-├── frontend/
-│   │
-│   ├── public/
-│   │
-│   └── src/
-│       ├── components/
-│       │   ├── Navbar.jsx
-│       │   ├── SearchBar.jsx
-│       │   ├── PropertyCard.jsx
-│       │   └── Footer.jsx
-│       │
-│       ├── pages/
-│       │   ├── Home.jsx
-│       │   ├── Login.jsx
-│       │   ├── Register.jsx
-│       │   ├── PropertyDetails.jsx
-│       │   ├── Booking.jsx
-│       │   ├── Wishlist.jsx
-│       │   └── MyBookings.jsx
-│       │
-│       ├── services/
-│       │   └── api.js
-│       │
-│       ├── data/
-│       │   └── dummyData.js
-│       │
-│       ├── App.jsx
-│       └── main.jsx
-│       │
-│       └── package.json
-│
-├── backend/
-│   │
-│   ├── controllers/
-│   │   ├── userController.js
-│   │   ├── propertyController.js
-│   │   └── bookingController.js
-│   │
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Property.js
-│   │   └── Booking.js
-│   │
-│   ├── routes/
-│   │   ├── userRoutes.js
-│   │   ├── propertyRoutes.js
-│   │   └── bookingRoutes.js
-│   │
-│   ├── middleware/
-│   │   └── authMiddleware.js
-│   │
-│   ├── config/
-│   │   └── db.js
-│   │
-│   ├── server.js
-│   └── package.json
-│
-└── README.md
 
 ---
 
